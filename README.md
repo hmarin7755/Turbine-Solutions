@@ -1,2 +1,2 @@
 # TurbineSolutionsWebsite
-website for turbine solutions 
+Static website for Turbine Solutions using gatsby JS
