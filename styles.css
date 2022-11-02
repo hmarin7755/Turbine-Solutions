@@ -16,7 +16,7 @@ nav {
 }
 .nav-logo{
   color: white;
-  font-size: 2rem;
+  font-size: 2.1rem;
   /* padding: 20px 80px; */
   margin: 20px auto 20px 12%;
   font-weight: bold;
@@ -38,6 +38,10 @@ li {
 a {
   text-decoration: none;
   color: white;
+}
+a:hover {
+  
+  color: #3fc1d5;
 }
 
 .hero-bg-img {
