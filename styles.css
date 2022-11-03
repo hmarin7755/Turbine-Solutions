@@ -10,7 +10,7 @@ body {
 }
 /* Hero + Navbar */
 nav {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   transition: .4s;
   display: flex;
   align-items: center;
@@ -22,13 +22,14 @@ nav {
   height: 8.25%;
 }
 nav.sticky{
+  background-color: rgba(0, 0, 0, 0.8);
   transition: .5s;
   height: 6.6%;
 }
 .nav-logo {
   position: relative;
   color: white;
-  font-size: 2.2rem;
+  font-size: 36px;
   /* padding: 20px 80px; */
   margin: 20px auto 20px 12%;
   font-weight: bold;
@@ -54,7 +55,7 @@ a {
 }
 .nav-links a {
   color: white;
-  transition: .3s;
+  transition: .2s;
   display: inline-block;     
   position: relative;    
   z-index: 1;     
@@ -64,8 +65,20 @@ a {
 }
 .nav-links a:hover {
   color: #3fc1d5;
-  transition: 0.3s;
+  transition: 0.2s;
 }
+/* .contact-btn{
+  background-color: #3fc1d5;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  transition: .1s;
+} */
+/* .contact-btn:hover{
+ background-color: white;
+
+ transition: .1s;
+} */
 .hero {
   background-image: url("images/pexels-pixabay-62623.jpg");
 
