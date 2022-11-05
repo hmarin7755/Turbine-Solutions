@@ -11,7 +11,7 @@ body {
 /* Hero + Navbar */
 nav {
   background-color: rgba(0, 0, 0, 0.5);
-  transition: .4s;
+  transition: 0.5s;
   display: flex;
   align-items: center;
   position: fixed;
@@ -19,33 +19,34 @@ nav {
   left: 0;
   width: 100%;
   z-index: 999;
-  height: 8.25%;
+  height: 80px;
 }
-nav.sticky{
+nav.sticky {
   background-color: rgba(0, 0, 0, 0.8);
-  transition: .5s;
-  height: 6.6%;
+  transition: 0.5s;
+  height: 65px;
 }
 .nav-logo {
   position: relative;
   color: white;
   font-size: 36px;
-  /* padding: 20px 80px; */
   margin: 20px auto 20px 12%;
   font-weight: bold;
 }
+
 .nav-logo span {
   color: #3fc1d5;
 }
-nav ul {
+.nav-links {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: right;
   gap: 20px;
+}
+.nav-links-container {
   margin: 0 12% 0 auto;
 }
-
 li {
   list-style: none;
   font-size: 1rem;
@@ -53,37 +54,81 @@ li {
 a {
   text-decoration: none;
 }
+
 .nav-links a {
   color: white;
-  transition: .2s;
-  display: inline-block;     
-  position: relative;    
-  z-index: 1;     
-  padding: 1em;     
-  margin: -1em; 
- 
+  transition: 0.2s;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 1em;
+  margin: -1em;
 }
 .nav-links a:hover {
   color: #3fc1d5;
-  transition: 0.2s;
+  transition: 0.1s;
 }
-/* .contact-btn{
-  background-color: #3fc1d5;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 50px;
-  transition: .1s;
-} */
-/* .contact-btn:hover{
- background-color: white;
+.checkbtn {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  right: 1rem;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
 
- transition: .1s;
-} */
+@media (max-width: 858px) {
+  .nav-logo {
+    position: fixed;
+    font-size: 28px;
+    margin: 20px;
+  }
+  .checkbtn {
+    display: block;
+    margin: 20px;
+  }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 65px;
+  }
+  .nav-links-container {
+    display: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 65px;
+  }
+  .sticky .nav-links-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+  }
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0;
+  }
+
+  #check:checked ~ .nav-links-container {
+    display: block;
+  }
+}
+
 .hero {
   background-image: url("images/pexels-pixabay-62623.jpg");
-
+  filter: brightness(60%);
   min-height: 100vh;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
