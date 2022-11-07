@@ -42,14 +42,15 @@ nav.sticky {
   display: flex;
   align-items: center;
   justify-content: right;
-  gap: 20px;
+ 
 }
 .nav-links-container {
   margin: 0 12% 0 auto;
+
 }
 li {
   list-style: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 a {
   text-decoration: none;
@@ -61,8 +62,8 @@ a {
   display: inline-block;
   position: relative;
   z-index: 1;
-  padding: 1em;
-  margin: -1em;
+  padding: .7rem;
+  /* margin: -1rem; */
 }
 .nav-links a:hover {
   color: #3fc1d5;
@@ -80,8 +81,18 @@ a {
 #check {
   display: none;
 }
+.hero {
+  background-image: url("images/pexels-pixabay-62623.jpg");
+  filter: brightness(60%);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 @media (max-width: 858px) {
+  /*----- responsive Navbar ------ */
   .nav-logo {
     position: fixed;
     font-size: 28px;
@@ -92,9 +103,9 @@ a {
     margin: 20px;
   }
   nav {
-    flex-direction: column;
+    /* flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: center; */
     height: 65px;
   }
   .nav-links-container {
@@ -103,8 +114,6 @@ a {
     background-color: rgba(0, 0, 0, 0.5);
     transition: 0.5s;
     position: fixed;
-    padding-top: 10px;
-    padding-bottom: 10px;
     top: 65px;
   }
   .sticky .nav-links-container {
@@ -116,20 +125,30 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    /* gap: 40px; */
     padding: 0;
+  }
+  .nav-links a{
+    padding: 1rem;
+    margin: 5px;
   }
 
   #check:checked ~ .nav-links-container {
     display: block;
   }
+  /*-----  ------ */
+}
+@media (max-width: 330px){
+  .nav-logo {
+    position: fixed;
+    font-size: 18px;
+    margin: 20px;
+  }
+}
+@media (max-width: 978px){
+  .nav-logo {
+    font-size: 28px;
+  }
 }
 
-.hero {
-  background-image: url("images/pexels-pixabay-62623.jpg");
-  filter: brightness(60%);
-  min-height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
