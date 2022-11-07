@@ -50,7 +50,7 @@ nav.sticky {
 }
 li {
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 a {
   text-decoration: none;
@@ -103,9 +103,6 @@ a {
     margin: 20px;
   }
   nav {
-    /* flex-direction: column;
-    align-items: flex-start;
-    justify-content: center; */
     height: 65px;
   }
   .nav-links-container {
@@ -134,7 +131,7 @@ a {
   }
 
   #check:checked ~ .nav-links-container {
-    display: block;
+    display: flex;
   }
   /*-----  ------ */
 }
