@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Turbine Solutions</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="images/icons8-airplane-96.png" rel="icon" />
+    <link href="images/icons8-turbine-60.png" rel="icon" />
 
     <script src="script.js" defer></script>
     <script
@@ -15,61 +15,62 @@
     ></script>
   </head>
   <body>
-    <!-- Hero Section with Navbar -->
-
+    <!-- Navbar -->
     <nav>
       <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
+      <label for="check" class="checkbtn"  onclick="changeIcon(this.children[0])">
+        <i class="fa-solid fa-bars"></i>
+        
       </label>
       <a href="#" class="nav-logo"><span>Turbine</span> Solutions</a>
       <div class="nav-links-container">
-      <ul class="nav-links">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
+        <ul class="nav-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <section></section>
-    <section class="hero"></section>
+    <!-- /navbar  -->
+    <section class="hero">
+      <div class="hero-text">
+        <h2>The best business information</h2>
+        <p>We're in the business of helping you start your business</p>
+      </div>
+      <button class="hero-btn">Get Started</button>
+    </section>
 
-    <h1>Lorem ipsum</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis
-      nihil placeat soluta maxime enim aspernatur ex, aut corporis odio
-      provident, repellat autem labore quae ullam sequi itaque cum suscipit.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis
-      nihil placeat soluta maxime enim aspernatur ex, aut corporis odio
-      provident, repellat autem labore quae ullam sequi itaque cum suscipit.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis
-      nihil placeat soluta maxime enim aspernatur ex, aut corporis odio
-      provident, repellat autem labore quae ullam sequi itaque cum suscipit.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis
-      nihil placeat soluta maxime enim aspernatur ex, aut corporis odio
-      provident, repellat autem labore quae ullam sequi itaque cum suscipit.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis
-      nihil placeat soluta maxime enim aspernatur ex, aut corporis odio
-      provident, repellat autem labore quae ullam sequi itaque cum suscipit.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis
-      nihil placeat soluta maxime enim aspernatur ex, aut corporis odio
-      provident, repellat autem labore quae ullam sequi itaque cum suscipit.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis
-      nihil placeat soluta maxime enim aspernatur ex, aut corporis odio
-      provident, repellat autem labore quae ullam sequi itaque cum suscipit.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis
-      nihil placeat soluta maxime enim aspernatur ex, aut corporis odio
-      provident, repellat autem labore quae ullam sequi itaque cum suscipit.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis
-      nihil placeat soluta maxime enim aspernatur ex, aut corporis odio
-      provident, repellat autem labore quae ullam sequi itaque cum suscipit.
-    </p>
+    <section id="about-us">
+      <h1>About Us</h1>
+      <div class="header-border"></div>
+      <div class="about-us-container">
+        <img
+          src="images/IMG_20191218_135131862.jpg"
+          alt="airplane inside of hangar"
+        />
+        <div class="about-us-info">
+          <h2>Lorem ipsum dolor sit</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis, laboriosam accusantium aperiam illum mollitia id fugit
+            placeat doloribus quam dignissimos. Dolorum ex, voluptatibus rem in
+            dolore velit laudantium alias temporibus? Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit. Aliquid modi labore fuga rem,
+            dolorum quos maiores ratione. Aut quae placeat nisi! Modi alias
+            sapiente deleniti pariatur hic obcaecati. Tenetur, ipsa?
+          </p>
+          <ul>
+            <!-- <i class="fa-solid fa-plane-departure"></i> -->
+            <!-- <i class="fa-solid fa-screwdriver-wrench"></i> -->
+            <li><i class="fa-solid fa-check"></i> Aliquid modi labore fuga rem</li>
+            <li><i class="fa-solid fa-check"></i>  Aut quae placeat nisi! Modi alias</li>
+            <li><i class="fa-solid fa-check"></i> deleniti pariatur hic obcaecati. Tenetur, ipsa</li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
