@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   min-height: 300vh;
   background-color: white;
 }
@@ -30,7 +30,7 @@ nav.sticky {
   position: relative;
   color: white;
   font-size: 36px;
-  margin: 20px auto 20px 15%;
+  margin: 20px auto 20px 8vw;
   font-weight: bold;
 }
 
@@ -41,10 +41,10 @@ nav.sticky {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
 }
 .nav-links-container {
-  margin: 0 15% 0 auto;
+  margin: 0 8vw 0 auto;
 }
 li {
   list-style: none;
@@ -63,7 +63,7 @@ a {
   padding: 1rem;
 }
 .nav-links button {
-margin: 1rem;
+  margin: 1rem;
 }
 
 .nav-links a:hover {
@@ -119,63 +119,11 @@ margin: 1rem;
   padding: 0 12%;
   margin-top: 10px;
 }
-/* .contact-us-btn{
-  appearance: none;
-  backface-visibility: hidden;
-  background-color: #3fc1d5;
-  border-radius: 5px;
-  border-style: none;
-  box-shadow: none;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: normal;
-  height: 38px;
-  overflow: hidden;
-  padding: 10px 15px;
-  text-align: center;
-  transform: translate3d(0, 0, 0);
-  transition: all 0.3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: top;
-  white-space: nowrap;
-}
-.contact-us-btn:hover{
- 
-    background-color: #ffffff;
-    color: #3fc1d5;
-    box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
-    opacity: 1;
-    transform: translateY(0);
-    transition-duration: 0.35s;
-  
-}
-
-.contact-us-btn:hover:after {
-  opacity: 0.5;
-}
-
-.contact-us-btn:active {
-  box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px 0, rgba(0, 0, 0, 0.1) 0 0 10px 0,
-    rgba(0, 0, 0, 0.1) 0 1px 4px -1px;
-  transform: translateY(2px);
-  transition-duration: 0.35s;
-}
-
-.contact-us-btn:active:after {
-  opacity: 1;
-} */
-/* ----------------------------- */
-
 .hero-btn {
   appearance: none;
   backface-visibility: hidden;
   background-color: #3fc1d5;
-  border-radius: 50px;
+  border-radius: 5px;
   border-style: none;
   box-shadow: none;
   box-sizing: border-box;
@@ -221,18 +169,13 @@ margin: 1rem;
   opacity: 1;
 }
 /* ------------hero btn end */
-@media (min-width: 768px) {
-  .button-65 {
-    padding: 14px 22px;
-    width: 176px;
-  }
-}
 
 @media (max-width: 858px) {
+
   /*----- responsive Navbar ------ */
   .nav-logo {
     font-size: 28px;
-    margin: 20px;
+    margin: 20px 5vw;
   }
   .checkbtn {
     display: block;
@@ -260,7 +203,7 @@ margin: 1rem;
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin-top: 5px;
+    margin-top: 8px;
   }
   .nav-links a {
     padding: 1rem;
@@ -269,7 +212,6 @@ margin: 1rem;
   .nav-links button {
     margin: 10px;
   }
- 
 
   #check:checked ~ .nav-links-container {
     display: flex;
@@ -328,7 +270,7 @@ margin: 1rem;
   max-width: 85%;
   line-height: 1.5;
 }
-.about-us-info h2{
+.about-us-info h2 {
   color: rgb(68, 68, 68);
 }
 .about-us-info ul {
@@ -340,7 +282,6 @@ margin: 1rem;
 .about-us-info ul li i {
   color: #3fc1d5;
   margin-right: 5px;
-  /* font-size: 13px; */
 }
 
 #about-us img {
@@ -349,4 +290,20 @@ margin: 1rem;
   margin: 50px 0 50px 7.5vw;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 858px){
+  .about-us-container{
+    width: 100%;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-us img {
+   float: none;
+   width: 100%;
+   display: block;
+   margin: 5vh auto 2vh;
+  }
 }

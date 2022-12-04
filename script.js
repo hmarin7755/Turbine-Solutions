@@ -5,5 +5,5 @@ window.addEventListener('scroll', ()=>{
 
 
 let changeIcon = function(icon){
-    icon.classList.toggle('fa-x')
+    icon.classList.toggle('fa-xmark')
 }
