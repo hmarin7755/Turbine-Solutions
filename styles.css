@@ -30,7 +30,7 @@ nav.sticky {
   position: relative;
   color: white;
   font-size: 36px;
-  margin: 20px auto 20px 8vw;
+  margin: 20px auto 20px 15%;
   font-weight: bold;
 }
 
@@ -44,7 +44,9 @@ nav.sticky {
   justify-content: center;
 }
 .nav-links-container {
-  margin: 0 8vw 0 auto;
+  margin: 0 15% 0 auto;
+  /* display: flex; ?? */
+  /* space between ?? */
 }
 li {
   list-style: none;
@@ -122,32 +124,32 @@ a {
 .hero-btn {
   appearance: none;
   backface-visibility: hidden;
-  background-color: #3fc1d5;
+  background-color: #3fc1d500;
   border-radius: 5px;
-  border-style: none;
-  box-shadow: none;
+  border-style: solid;
+  border-color: #3fc1d5;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
+  display:block;
+  font-size: 1.1rem;
   font-weight: normal;
-  height: 45px;
+  height: auto;
   overflow: hidden;
-  padding: 14px 30px;
+  padding: 10px 25px;
   text-align: center;
   transform: translate3d(0, 0, 0);
   transition: all 0.3s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  vertical-align: top;
+  /* vertical-align: top; */
   white-space: nowrap;
 }
 
 .hero-btn:hover {
-  background-color: #ffffff;
-  color: #3fc1d5;
+  background-color: #3fc1d5;
+  color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
   opacity: 1;
   transform: translateY(0);
@@ -243,7 +245,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 2.3vh;
 }
 
 #about-us h1 {
@@ -261,7 +263,7 @@ a {
   width: 85%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0px;
+  gap: 1vw;
   margin: 10px auto;
 }
 
@@ -304,6 +306,6 @@ a {
    float: none;
    width: 100%;
    display: block;
-   margin: 5vh auto 2vh;
+   margin: 5vh auto 0 auto;
   }
 }
