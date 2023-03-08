@@ -1,0 +1,22 @@
+{
+  "name": "turbinesolutionswebsite",
+  "version": "1.0.0",
+  "description": "Static website for Turbine Solutions. Currently redesigning to be more informative and use modern web style.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmarin7755/Turbine-Solutions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmarin7755/Turbine-Solutions/issues"
+  },
+  "homepage": "https://github.com/hmarin7755/Turbine-Solutions#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
