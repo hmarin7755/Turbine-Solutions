@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/hmarin7755/Turbine-Solutions/issues"
   },
-  "homepage": "https://github.com/hmarin7755/Turbine-Solutions#readme",
+  "homepage": "https://github.com/hmarin7755/Turbine-Solutions",
   "dependencies": {
     "bootstrap": "^5.2.3"
   }
