@@ -43,11 +43,14 @@ $navbar-dark-hover-color: $white;
 
 
 $custom-theme-colors:(
-    "altlight": #f2ebfa,
+    "altlightblue": #1e9bb4,
     "altdark": #522192
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+//add navbar height
+$navbar-padding-y: $spacer * .7;
 
 
 //import bootstrap 5
