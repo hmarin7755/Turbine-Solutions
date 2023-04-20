@@ -7,3 +7,9 @@
 .navbar{
     transition: all 0.4s;
 }
+
+@media (max-width: 767.98px) { 
+    .navbar{
+        background-color: #2C3E50;
+    }
+ }
