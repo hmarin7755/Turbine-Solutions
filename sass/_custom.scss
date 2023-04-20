@@ -52,6 +52,5 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 //add navbar height
 $navbar-padding-y: $spacer * .7;
 
-
 //import bootstrap 5
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
