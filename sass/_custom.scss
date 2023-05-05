@@ -44,7 +44,7 @@ $navbar-dark-hover-color: $white;
 
 $custom-theme-colors:(
     "altlightblue": #1e9bb4,
-    "altdark": #522192
+    "altdark": #2C3E50
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
