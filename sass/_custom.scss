@@ -50,5 +50,11 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 //add navbar height
 $navbar-padding-y: $spacer * 0.7;
 
+//prevents content from being obscured by fixed navbar when user 
+//clicks on link to scroll to a section of the page.
+html{
+    scroll-padding-top: 4rem;
+}
+
 //import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
