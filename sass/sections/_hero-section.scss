@@ -1,7 +1,8 @@
 #hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://hmarin7755.github.io./Turbine-Solutions/images/king-air.jpg');
+    url("https://hmarin7755.github.io./Turbine-Solutions/images/king-air.jpg");
   min-height: 80vh;
+  // min-height: 45rem;
   //   parallax
   background-attachment: fixed;
 
@@ -13,4 +14,3 @@
   justify-content: center;
   flex-direction: column;
 }
-
