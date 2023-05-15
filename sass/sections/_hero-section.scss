@@ -1,5 +1,5 @@
 #hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("https://hmarin7755.github.io./Turbine-Solutions/images/cessna-g25ec50f9c_1920.jpg");
   min-height: 80vh;
   // min-height: 45rem;
@@ -9,6 +9,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   display: flex;
   align-items: center;
   justify-content: center;
