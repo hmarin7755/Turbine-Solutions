@@ -1,4 +1,4 @@
-html{scroll-padding-top:4rem}/*!
+html{scroll-padding-top:4rem}.card-img-top{width:100%;height:30vw;-o-object-fit:cover;object-fit:cover}@media(min-width: 768px){.card-img-top{width:100%;height:12vw;-o-object-fit:cover;object-fit:cover}}/*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
