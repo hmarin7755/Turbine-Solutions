@@ -10,7 +10,7 @@ const menuToggle = document.getElementById("main-nav");
 const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
 navLinks.forEach(function (l) {
   l.addEventListener("click", function () {
-    // avoid flickering on desktop
+    // avoids flickering on desktop
     if (menuToggle.classList.contains("show")) {
       bsCollapse.toggle();
     }
@@ -18,4 +18,7 @@ navLinks.forEach(function (l) {
 });
 
 
-
+//Auto Updates the year in footer
+const yearSpan = document.querySelector('#currentYear');
+const currentYear = new Date();
+yearSpan.innerText = currentYear.getFullYear();

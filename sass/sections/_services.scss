@@ -1,0 +1,14 @@
+
+//make images in cards the same size
+.card-img-top {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  .card-img-top {
+    width: 100%;
+    height: 12vw;
+    object-fit: cover;
+  }
+}
