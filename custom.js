@@ -1,7 +1,7 @@
 //displays background color on navbar when scrolled
 const navEl = document.querySelector(".navbar");
 window.addEventListener("scroll", () => {
-  navEl.classList.toggle("navbar-scrolled", window.scrollY > 65);
+  navEl.classList.toggle("navbar-scrolled", window.scrollY > 30);
 });
 
 //collapses nav bar on mobile when link is clicked
