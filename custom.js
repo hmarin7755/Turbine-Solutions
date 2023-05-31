@@ -22,3 +22,4 @@ navLinks.forEach(function (l) {
 const yearSpan = document.querySelector('#currentYear');
 const currentYear = new Date();
 yearSpan.innerText = currentYear.getFullYear();
+
