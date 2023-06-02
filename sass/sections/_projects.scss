@@ -1,6 +1,5 @@
 .item {
   position: relative;
- 
   transition: .5s;
 }
 .item:hover{
@@ -19,8 +18,6 @@ transition: 0.5s;
   opacity: 0;
   cursor: pointer;
 }
-
-
 
 .item:hover span {
   opacity: 1;
@@ -43,8 +40,9 @@ transition: 0.5s;
   transition: 0.3s;
 }
 
-// .item img{
-//   width: 100%;
-//   height: 15vw;
-//   object-fit: cover;
-// }
+.item img{
+  width: 100%;
+ height: 15vw;
+  object-fit: cover;
+}
+

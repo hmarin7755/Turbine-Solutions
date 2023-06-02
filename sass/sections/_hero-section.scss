@@ -1,7 +1,7 @@
 #hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url("https://hmarin7755.github.io./Turbine-Solutions/images/cessna-g25ec50f9c_1920.jpg");
-  min-height: 85vh;
+  min-height: 88vh;
   // min-height: 45rem;
   //   parallax
   // background-attachment: fixed;
@@ -15,4 +15,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+@media (max-width: 767.98px){
+  #hero{
+    min-height: 65vh;
+    background-position: 65% 40%;
+  }
 }
