@@ -7,6 +7,7 @@
   -moz-box-shadow: 10px 10px 29px -21px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 29px -21px rgba(0,0,0,0.75);
 transition: 0.5s;
+cursor: pointer;
 }
 .item span {
   position: absolute;
@@ -16,7 +17,7 @@ transition: 0.5s;
   color: rgba(255, 255, 255, 0.9);
   transition: .5s;
   opacity: 0;
-  cursor: pointer;
+  
 }
 
 .item:hover span {
@@ -40,9 +41,19 @@ transition: 0.5s;
   transition: 0.3s;
 }
 
+
 .item img{
   width: 100%;
- height: 15vw;
+ height: 30vh;
   object-fit: cover;
 }
+
+// .caption-1-wrapper{
+//   position: relative;
+// }
+// .caption-1 figcaption {
+//   position: absolute;
+//   bottom: 0;
+//   right: 0;
+// }
 
