@@ -61,26 +61,7 @@ $link-decoration: none;
 
 $box-shadow: 0 .3rem .5rem rgba($black, .15);
 
-$figure-caption-font-size:          1rem;
-$figure-caption-color:              black;
 
-// .carousel-inner {
-//   height: 0;
-//   padding-bottom: 70%; /* this sets carousel aspect ratio (4:1 here) */
-// }
-
-// .carousel-item {
-//   position: absolute !important; /* Bootstrap is insistent */
-//   top: 0;
-//   right: 0;
-//   bottom: 0;
-//   left: 0;
-// }
-
-// .carousel-item img {
-//   height: 100%; /* Bootstrap handles width already */
-//   object-fit: cover; /* or 'contain' if you want stretch instead of crop */
-// }
 
 //import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

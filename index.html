@@ -11,6 +11,14 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
     <link href="images/icons8-airplane-96.png" rel="icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css"
+      integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   
   </head>
   <body style="min-height: 200vh">
     <!-- Navbar -->
@@ -205,7 +213,7 @@
           </div>
           <div class="col-md-6 text-center text-md-start">
             <h1>
-              <div class="lead text-info">About Us</div>
+              <div class="lead text-altdark">About Us</div>
             </h1>
             <p class="display-6 text-altdark">Lorem ipsum dolor sit amet.</p>
             <p class="lead">
@@ -214,9 +222,9 @@
               Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras
               ullamcorper gravida tellus ut consequat.
             </p>
-            <a href="#" class="btn btn-primary btn-md mt-md-0 mb-4"
-              >Learn More</a
-            >
+            <a href="#" class="fw-bolder text-info"
+              >Learn More <i class="bi bi-arrow-right"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -234,48 +242,58 @@
         </div>
 
         <!-- Gallery -->
-        <div class="container-lg py-4">
+        <div class="container-lg py-4" id="gallery">
           <div class="row">
             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-              <img
-                src="images/main-landing-gear-1461139.jpg"
-                class="w-100 shadow rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-
-              <img
-                src="images/cockpit-6381367_1920.jpg"
-                class="w-100 shadow rounded mb-4"
-                alt="Wintry Mountain Landscape"
-              />
+              <div class="item" data-src="images/main-landing-gear-1461139.jpg" data-sub-html="<h4>Landing Gear</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eaque, corrupti harum amet voluptatem illum</p>">
+                <img
+                  src="images/main-landing-gear-1461139.jpg"
+                  class="w-100 shadow rounded mb-4"
+                  alt=""
+                />
+              </div>
+              <div class="item" data-src="images/cockpit-6381367_1920.jpg">
+                <img
+                  src="images/cockpit-6381367_1920.jpg"
+                  class="w-100 shadow rounded mb-4"
+                  alt=""
+                />
+              </div>
             </div>
 
             <div class="col-lg-4 mb-4 mb-lg-0">
-              <img
-                src="images/plane-g789d69c97_1920.jpg"
-                class="w-100 shadow rounded mb-4"
-                alt="Mountains in the Clouds"
-              />
-
-              <img
-                src="images/plane-601589_1920.jpg"
-                class="w-100 shadow rounded mb-4"
-                alt="Boat on Calm Water"
-              />
+              <div class="item" data-src="images/plane-g789d69c97_1920.jpg" >
+                <img
+                  src="images/plane-g789d69c97_1920.jpg"
+                  class="w-100 shadow rounded mb-4"
+                  alt=""
+                />
+              </div>
+              <div class="item" data-src="images/plane-601589_1920.jpg">
+                <img
+                  src="images/plane-601589_1920.jpg"
+                  class="w-100 shadow rounded mb-4"
+                  alt=""
+                />
+              </div>
             </div>
 
             <div class="col-lg-4 mb-4 mb-lg-0">
-              <img
-                src="images/engine-gbcdd1ad48_1920.jpg"
-                class="w-100 shadow rounded mb-4"
-                alt="Waves at Sea"
-              />
+              <div class="item" data-src="images/engine-gbcdd1ad48_1920.jpg">
+                <img
+                  src="images/engine-gbcdd1ad48_1920.jpg"
+                  class="w-100 shadow rounded mb-4"
+                  alt=""
+                />
+              </div>
 
-              <img
-                src="images/king-air.jpg"
-                class="w-100 shadow rounded mb-4"
-                alt="Yosemite National Park"
-              />
+              <div class="item" data-src="images/king-air.jpg">
+                <img
+                  src="images/king-air.jpg"
+                  class="w-100 shadow rounded mb-4"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -336,8 +354,8 @@
 
               <ul class="list-unstyled">
                 <li class="py-1">
-                  <i class="bi bi-geo-alt-fill text-secondary me-2"></i> New
-                  York, NY 10012, US
+                  <i class="bi bi-geo-alt-fill text-secondary me-2"></i>200
+                  Barry Whatley Way, Airport 6A2, Griffin, GA 30224
                 </li>
                 <li class="py-1">
                   <i class="bi bi-envelope-fill me-2 text-secondary"></i>
@@ -374,7 +392,30 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <!-- custom JS -->
-    <script src="custom.js"></script>
+  
+    <!-- lightgallery js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"
+      integrity="sha512-dSI4QnNeaXiNEjX2N8bkb16B7aMu/8SI5/rE6NIa3Hr/HnWUO+EAZpizN2JQJrXuvU7z0HTgpBVk/sfGd0oW+w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.min.js"
+      integrity="sha512-Jx+orEb1KJtJ6Ajfshhr7is0zqgUC7H9ylk76KMtB9Ea2WAf/Muyzpe9zvBAYQQQKdAbj+rNYEorsRQLsmRafA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.min.js" integrity="sha512-BfC/MaayF9sOZyn1bs1R1P8dEugU7v0j5Qu2FeWVfF/rhKUKZBD9kgNqRNinefIp9zAE7g2KhlwwhMpl5V1jMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      lightGallery(document.getElementById("gallery"), {
+        plugins: [lgThumbnail,lgZoom],
+        selector: ".item",
+        download: false,
+        closeOnTap:true
+      });
+    </script>
+      <!-- custom JS -->
+      <script src="custom.js"></script>
   </body>
 </html>
